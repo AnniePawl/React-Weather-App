@@ -1,7 +1,9 @@
+/* eslint-disable react/jsx-filename-extension */
 import React from 'react';
 
 function ErrorMessage(props) {
-    return <h1> {props.message} </h1>
+  const { message } = props;
+  return <h1> {message} </h1>;
 }
 
-export default ErrorMessage
+export default ErrorMessage;
