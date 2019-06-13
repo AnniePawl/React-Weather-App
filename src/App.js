@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import ErrorMessage from './ErrorMessage';
 import Weather from './Weather';
 import './App.css';
+import Title from './Title'
 
 /**
  * This example illustrates a simple react project
@@ -79,7 +80,9 @@ class App extends Component {
     const { inputValue } = this.state;
     return (
       <div className="App">
-        <h1>The @#$! Weather</h1>
+        <div>
+          < Title />
+        </div>
         {/* <Weather />> */}
 
 

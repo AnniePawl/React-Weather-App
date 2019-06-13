@@ -1,7 +1,17 @@
-
 .App {
   width: 960px;
   margin: auto;
+}
+
+html {
+  height: 100%;
+  background: radial-gradient(ellipse at bottom,#dbfeff 30%, #6ed3f4 70%);
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Poiret One', cursive;
+  margin: 20px;
 }
 
 input[type=text] {
@@ -9,4 +19,13 @@ input[type=text] {
   padding: 0.5em 0.5em;
   font-size: 1em;
   border-radius: 0.5em;
+}
+
+.button {
+  font-family: 'Poiret One', cursive;
+  border-radius: 15px;
+  padding: 8px;
+  margin:3px;
+  color: white;
+  background:#973499;
 }
