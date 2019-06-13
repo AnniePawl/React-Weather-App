@@ -102,7 +102,7 @@ class App extends Component {
             placeholder="enter zip"
           />
 
-          <button type="submit">Submit</button>
+          <button className="button" type="submit">submit</button>
 
         </form>
 
