@@ -94,16 +94,17 @@ class App extends Component {
           Set the value of the input to a value held in component state
           Set the value held in component state when a change occurs at the input
           */}
-          <input
-            value={inputValue}
-            onChange={e => this.setState({ inputValue: e.target.value })}
-            type="text"
-            pattern="(\d{5}([\-]\d{4})?)"
-            placeholder="enter zip"
-          />
+          <div className="form-elements">
+            <input
+              value={inputValue}
+              onChange={e => this.setState({ inputValue: e.target.value })}
+              type="text"
+              pattern="(\d{5}([\-]\d{4})?)"
+              placeholder="zip code"
+            />
 
-          <button className="button" type="submit">submit</button>
-
+            <button className="button" type="submit">submit</button>
+          </div>
         </form>
 
         {/** Conditionally render this component */}

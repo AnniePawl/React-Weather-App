@@ -8,6 +8,8 @@ class Title extends Component {
           WHAT'S THE WEATHER
         </h1>
         <h2>Enter Your Zip Below</h2>
+        <p>The day is cold, and dark, and dreary < br /> It rains, and the wind is never weary< br />The vine still clings to the mouldering wall< br />
+          But at every gust the dead leaves fall< br /> And the day is dark and dreary.</p>
       </div>
     );
   }
