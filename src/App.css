@@ -52,7 +52,6 @@ input[type=text] {
   margin-top: 50px;
 }
 
-
 .button {
   font-family: 'Poiret One', cursive;
   font-size: 25px;
@@ -62,4 +61,12 @@ input[type=text] {
   margin:5px;
   color: black;
   background: white;
+}
+
+.return_weather {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size:25px;
 }

@@ -10,13 +10,13 @@ function Weather(props) {
   return (
     <div>
       <div>
-        Title: {main}</div>
-      <div>Desc: {description}</div>
+        Condition: {main}</div>
+      <div>Description: {description}</div>
       <div>Icon: {icon}</div>
-      <div>Temp: {temp}</div>
+      <div>Temperature: {temp}</div>
       <div>Pressure: {pressure}</div>
       <div>Humidity: {humidity}</div>
-      <div>Temp Min: {temp_min} Max:{temp_max}</div>
+      <div>Min Temp: {temp_min} Max Temp:{temp_max}</div>
     </div>
   );
 }

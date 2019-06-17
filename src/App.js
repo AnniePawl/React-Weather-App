@@ -19,7 +19,6 @@ import Title from './Title'
  * zip and displays it in a component.
  * */
 
-
 class App extends Component {
   constructor(props) {
     super(props);
@@ -83,7 +82,11 @@ class App extends Component {
         <div>
           < Title />
         </div>
-        {/* <Weather />> */}
+
+        <div className="return_weather">
+          {/** Conditionally render this component */}
+          {this.renderWeather()}
+        </div>
 
 
         {/** This input uses the controlled component pattern */}
@@ -106,9 +109,6 @@ class App extends Component {
             <button className="button" type="submit">submit</button>
           </div>
         </form>
-
-        {/** Conditionally render this component */}
-        {this.renderWeather()}
 
       </div>
     );
