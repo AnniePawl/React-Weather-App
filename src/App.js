@@ -35,7 +35,7 @@ class App extends Component {
     // ! Get your own API key !
     const apikey = process.env.REACT_APP_OPENWEATHERMAP_API_KEY;
     // Form an API request URL with the apikey and zip
-    const url = `https://api.openweathermap.org/data/2.5/weather?zip=${zip},us&appid=${apikey}`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?zip=${zip},us&appid=${apikey}&units=imperial`;
     // Get data from the API with fetch
     fetch(url).then((res) => {
       // Handle the response stream as JSON

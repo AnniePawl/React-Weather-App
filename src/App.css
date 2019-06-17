@@ -15,33 +15,32 @@ body {
 }
 
 h1 {
+  font-weight: bold;
   color:#3e4849;
   display: flex;
   justify-content: center;
   font-size: 50px;
-  margin-top: 13vh;
-  margin-bottom: 1vh;
-  
+  margin-top: 10vh;
+  margin-bottom: 1px;
 }
 
 h2 {
+  font-weight: bold;
   color:#3e4849;
   display: flex;
   justify-content: center;
-  font-size: 30px;
-}
-
-p {
-  text-align: center;
-  font-size: 23px;
+  font-size: 35px;
 }
 
 input[type=text] {
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
   padding: 0.5em 0.5em;
-  font-size: 20px;
+  font-size: 23px;
   text-align: center;
   border-radius: 0.5em;
   margin:5px;
+  color:#3e4849;
 }
 
 .form-elements {
@@ -50,16 +49,18 @@ input[type=text] {
   align-items: center;
   justify-content: center;
   margin-top: 50px;
+  
 }
 
 .button {
   font-family: 'Poiret One', cursive;
   font-size: 25px;
+  font-weight:bold;
   width: 150px;
   border-radius: 15px;
   padding: 10px;
   margin:5px;
-  color: black;
+  color:#3e4849;
   background: white;
 }
 
@@ -69,4 +70,9 @@ input[type=text] {
   align-items: center;
   justify-content: center;
   font-size:25px;
+}
+
+.weather {
+  margin:5px;
+  text-transform: capitalize;
 }
