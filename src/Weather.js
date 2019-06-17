@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-one-expression-per-line */
-/* eslint-disable react/jsx-filename-extension */
+eslint - disable react / jsx - filename - extension
 import React from 'react';
 
 function Weather(props) {

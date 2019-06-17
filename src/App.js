@@ -1,10 +1,9 @@
-/* eslint-disable react/jsx-filename-extension */
 
 import React, { Component } from 'react';
 import ErrorMessage from './ErrorMessage';
 import Weather from './Weather';
 import './App.css';
-import Title from './Title'
+import Title from './Title';
 
 class App extends Component {
   constructor(props) {
@@ -67,7 +66,7 @@ class App extends Component {
     return (
       <div className="App">
         <div>
-          < Title />
+          <Title />
         </div>
 
         <div className="return_weather">
