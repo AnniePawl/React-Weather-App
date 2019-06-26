@@ -76,3 +76,7 @@ input[type=text] {
   margin:5px;
   text-transform: capitalize;
 }
+
+.bold {
+  font-weight: bold;
+}
