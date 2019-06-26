@@ -29,6 +29,7 @@ class App extends Component {
       return res.json();
     }).then((json) => {
       // If the request successful, assign data to component state
+      console.log(json)
       this.setState({ weatherData: json });
       // This needs better error checking here or at renderWeather()
       // It's possible to get a valid JSON response that is not weather
@@ -51,6 +52,11 @@ class App extends Component {
 
     if (weatherData.cod === '404') {
       return <ErrorMessage message={weatherData.message} />;
+    }
+
+    if (weatherData.cod === '400') {
+      return <ErrorMessage message={weatherData.message} />;
+
     }
 
     /*
@@ -102,3 +108,9 @@ class App extends Component {
 }
 
 export default App;
+
+
+// 1 == 1 true SAME VALUE
+// 1 == '1' true SAME VALUE
+
+// 1 === '1' false SAME VLUE AND TYPE
