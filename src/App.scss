@@ -1,0 +1,82 @@
+@mixin font {
+  font-family: 'Be Vietnam', sans-serif;
+  color:#3e4849;
+  margin: 20px;
+}
+
+html {
+  height: 100%;
+  background: radial-gradient(ellipse at bottom,#dbfeff 30%, #6ed3f4 70%);
+  overflow: hidden;
+}
+
+.title {
+  color:red;
+
+}
+
+body {
+  @include font
+}
+
+h1 {
+  @include font;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  margin-top: 10vh;
+  margin-bottom: 1px;
+}
+
+h2 {
+  @include font;
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+}
+
+input[type=text] {
+  @include font
+  padding: 0.5em 0.5em;
+  font-size: 23px;
+  text-align: center;
+  border-radius: 0.5em;
+  margin:5px;
+}
+
+.form-elements {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.button {
+  @include font
+  font-size: 25px;
+  width: 150px;
+  border-radius: 15px;
+  padding: 10px;
+  margin:5px;
+  background: white;
+}
+
+.return_weather {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size:25px;
+}
+
+.weather {
+  margin:2px;
+  text-transform: capitalize;
+}
+
+.App {
+  width: 960px;
+  margin: auto;
+}
+

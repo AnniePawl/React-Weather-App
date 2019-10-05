@@ -1,5 +1,4 @@
 import React from 'react';
-
 function Weather(props) {
 
   const { weatherData } = props;
@@ -11,8 +10,8 @@ function Weather(props) {
       <div className="weather"><span className="bold">Condition:</span> {main} </div>
       <div className="weather"><span className="bold">Details:</span>   {description}</div>
       <div className="weather"><span className="bold">Temperature:</span>   {Math.round(temp)} °F </div>
-      <div className="weather"><span className="bold">Min Temp:</span>   {Math.round.temp_min} °F </div>
-      <div className="weather"><span className="bold">Max Temp:</span>  {temp_max} °F </div>
+      <div className="weather"><span className="bold">Min Temp:</span>  {temp_max} {Math.round.temp_min} °F </div>
+      <div className="weather"><span className="bold">Max Temp:</span>  {temp_min} °F </div>
       <div className="weather"><span className="bold">Pressure: </span>   {pressure} hPa</div>
       <div className="weather"><span className="bold">Humidity: </span>  {humidity} %</div>
       <div className="weather"><span className="bold">Wind Speed: </span>  {speed} mph</div>

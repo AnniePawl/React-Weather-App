@@ -71,6 +71,7 @@ class App extends Component {
     const { inputValue } = this.state;
     return (
       <div className="App">
+
         <div>
           <Title />
         </div>
@@ -102,7 +103,7 @@ class App extends Component {
           </div>
         </form>
 
-      </div>
+      </div >
     );
   }
 }
