@@ -1,5 +1,5 @@
 # React Weather API Challenge 
-![alt text](https://github.com/AnniePawl/React-Weather-App/blob/master/public/weather-app.png)
+![alt text](https://github.com/AnniePawl/React-Weather-App/blob/master/public/weather.png)
 
 
 This is a starter project for a React API challenge. The goal of this challenge is to use React with a public web API and to work with form elements and user input. 
