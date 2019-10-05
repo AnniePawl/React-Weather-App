@@ -1,0 +1,13 @@
+{
+  "main.css": "/YourRepo/static/css/main.8c17fcb2.chunk.css",
+  "main.js": "/YourRepo/static/js/main.06ab22d0.chunk.js",
+  "main.js.map": "/YourRepo/static/js/main.06ab22d0.chunk.js.map",
+  "static/js/1.46c97304.chunk.js": "/YourRepo/static/js/1.46c97304.chunk.js",
+  "static/js/1.46c97304.chunk.js.map": "/YourRepo/static/js/1.46c97304.chunk.js.map",
+  "runtime~main.js": "/YourRepo/static/js/runtime~main.45fcf4a4.js",
+  "runtime~main.js.map": "/YourRepo/static/js/runtime~main.45fcf4a4.js.map",
+  "static/css/main.8c17fcb2.chunk.css.map": "/YourRepo/static/css/main.8c17fcb2.chunk.css.map",
+  "index.html": "/YourRepo/index.html",
+  "precache-manifest.0c4598b5e3ab1b6def9e96213007d795.js": "/YourRepo/precache-manifest.0c4598b5e3ab1b6def9e96213007d795.js",
+  "service-worker.js": "/YourRepo/service-worker.js"
+}
