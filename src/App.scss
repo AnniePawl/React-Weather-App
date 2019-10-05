@@ -10,11 +10,6 @@ html {
   overflow: hidden;
 }
 
-.title {
-  color:red;
-
-}
-
 body {
   @include font
 }
@@ -54,11 +49,11 @@ input[type=text] {
 
 .button {
   @include font
-  font-size: 25px;
-  width: 150px;
+  font-size: 20px;
+  width: 130px;
   border-radius: 15px;
-  padding: 10px;
-  margin:5px;
+  padding: 8px;
+  margin:8px;
   background: white;
 }
 

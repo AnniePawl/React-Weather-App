@@ -4,10 +4,6 @@ html {
   overflow: hidden;
 }
 
-.title {
-  color: red;
-}
-
 body {
   font-family: 'Be Vietnam', sans-serif;
   color: #3e4849;
@@ -74,11 +70,11 @@ input[type=text] {
   font-family: 'Be Vietnam', sans-serif;
   color: #3e4849;
   margin: 20px;
-  font-size: 25px;
-  width: 150px;
+  font-size: 20px;
+  width: 130px;
   border-radius: 15px;
-  padding: 10px;
-  margin: 5px;
+  padding: 8px;
+  margin: 8px;
   background: white;
 }
 
